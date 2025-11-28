@@ -1,0 +1,49 @@
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "python/3.11.9"
+   Try: "module spider python/3.11.9" to see how to load the module(s).
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"py-pip/23.1.2"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "py-pip/23.1.2"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"py-setuptools/69.2.0"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "py-setuptools/69.2.0"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"py-wheel/0.41.2"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "py-wheel/0.41.2"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+  Could not find a version that satisfies the requirement numpy (from -r requirements.txt (line 2)) (from versions: )
+No matching distribution found for numpy (from -r requirements.txt (line 2))
+timm requires Python '>=3.8' but the running Python is 3.6.8
+Traceback (most recent call last):
+  File "test.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
