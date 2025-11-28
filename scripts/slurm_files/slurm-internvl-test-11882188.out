@@ -1,0 +1,16 @@
+================================================================================
+JobID = 11882188
+User = u23252, Account = umin_kurs_datascismartcity2526
+Partition = scc-gpu, Nodelist = ggpu135
+================================================================================
+Python 3.6.8
+Installing deps from wheels...
+Collecting numpy (from -r requirements.txt (line 2))
+============ Job Information ===================================================
+Submitted: 2025-11-28T19:40:10
+Started: 2025-11-28T19:41:03
+Ended: 2025-11-28T19:41:42
+Elapsed: 1 min, Limit: 20 min, Difference: 19 min
+CPUs: 8, Nodes: 1
+Estimated Consumption: 2.50 core-hours
+================================================================================
